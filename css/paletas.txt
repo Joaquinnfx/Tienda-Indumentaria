@@ -1,0 +1,9 @@
+Negro: #1A1A1A
+
+Blanco: #FFFFFF
+
+Rojo quemado: #D72638 
+
+Gris cemento: #A1A1A1
+
+Beige cálido: #F4EBD9
