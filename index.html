@@ -5,6 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TiendaRopa</title>
     <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="fontawesome/css/all.min.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <!--BODY-->
   <body>
@@ -13,9 +25,23 @@
       <!--SECTION-->
       <section class="header-contain">
         <!--SLIDE-->
-        <div class="head-slide">
-          <span>3 y 6 Cuotas sin interés - </span><span>  Envíos gratis -</span
-          ><span>  Aceptamos Mercado Pago</span>
+        <div
+          id="textCarousel"
+          class="carousel slide"
+          data-bs-ride="carousel"
+          data-bs-interval="3000"
+        >
+          <div class="carousel-slide text-center p-2">
+            <div class="carousel-item active">
+              <p>3 y 6 Cuotas sin interés</p>
+            </div>
+            <div class="carousel-item">
+              <p>Envíos gratis</p>
+            </div>
+            <div class="carousel-item">
+              <p>Aceptamos MercadoPago</p>
+            </div>
+          </div>
         </div>
         <!--TITULO-->
         <div class="head-titulo">
@@ -35,47 +61,73 @@
             </form>
           </div>
           <div class="pages">
-            <span>HOMBRE</span><span>MUJER</span>
+            <p>HOMBRE</p>
+            <p>MUJER</p>
           </div>
           <div class="user-carrito">
-            <p>ICONOS USER Y CARRITO</p>
+            <p><i class="fa-solid fa-user fa-xl"></i></p>
+            <p><i class="fa-solid fa-cart-shopping fa-xl"></i></p>
           </div>
         </div>
       </section>
     </header>
     <!--MAIN-->
     <main>
-        <section class="carousel">
-            <img src="" alt="">
-        </section>
-        <section class="slide">
-            <p>OFERTAS DE INVIERNO - OFERTAS DE INVIERNO - OFERTAS DE INVIERNO - OFERTAS DE INVIERNO - OFERTAS DE INVIERNO - </p>
-        </section>
-        <section class="ofertas">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-        </section>
-        <div>
-            <h2>HOMBRES</h2>
+      <section class="carousel">
+        <div
+          id="carouselExampleSlidesOnly"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="3500">
+              <img
+                src="/assets/carousel-1.avif"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item" data-bs-interval="3500">
+              <img
+                src="/assets/carousel-2.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item" data-bs-interval="3500">
+              <img
+                src="/assets/carousel-4.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+          </div>
         </div>
-        <section class="foto-hombres">
+      </section>
+      <section class="slide">
+        <p>
+          OFERTAS DE INVIERNO - OFERTAS DE INVIERNO - OFERTAS DE INVIERNO -
+          OFERTAS DE INVIERNO - OFERTAS DE INVIERNO -
+        </p>
+      </section>
+      <section class="ofertas">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </section>
+      <div>
+        <h2>HOMBRES</h2>
+      </div>
+      <section class="foto-hombres"></section>
 
-        </section>
-        
-        <div>
-            <h2>MUJERES</h2>
-        </div>
+      <div>
+        <h2>MUJERES</h2>
+      </div>
 
-        <section class="foto-mujeres">
-
-        </section>
-
+      <section class="foto-mujeres"></section>
     </main>
     <!--FOOTER-->
-    <footer>
-
-    </footer>
+    <footer></footer>
   </body>
 </html>
