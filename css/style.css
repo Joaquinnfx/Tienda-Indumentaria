@@ -1,19 +1,19 @@
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 /* HEADER SLIDE */
-  .carousel-slide{
-    height: 40px;
-    width: 100%;
-    margin: 0;
-    display: flex;
-    align-content: center;
-    background-color: #000000;
-    color: white;
-    font-weight: 700;
-  }
+.carousel-slide {
+  height: 40px;
+  width: 100%;
+  margin: 0;
+  display: flex;
+  align-content: center;
+  background-color: #000000;
+  color: white;
+  font-weight: 700;
+}
 
 /* HEADER TITULO */
 
@@ -22,12 +22,11 @@ body {
   width: 100%;
   height: 10%;
   margin: 0;
-  background-color: #D72638; 
+  background-color: #d72638;
   align-content: center;
   overflow: hidden;
 
-
-  h1{
+  h1 {
     color: black;
     font-size: 75px;
     line-height: 100px;
@@ -48,38 +47,35 @@ body {
   margin: 0;
   justify-content: space-between;
   align-items: center;
-  background-color: #A1A1A1;
+  background-color: #a1a1a1;
   overflow: hidden;
-  
-    .buscador{
-        margin: 15px;
-        flex: 1;
 
-    }
-    .pages{
-        flex: 1;
-        display: flex;
-        justify-content: center;
-        gap: 20px;
-        
-    }
-    .user-carrito{  
-        flex: 1;
-        display: flex;
-        justify-content: flex-end;
-        gap: 20px;
-        margin: 15px;
-
-    }
+  .buscador {
+    margin: 15px;
+    flex: 1;
+  }
+  .pages {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  .user-carrito {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    margin: 15px;
+  }
 }
 
 /* CAROUSEL */
-    .carousel-inner {
-        height: 500px;
-        
-        img {
-            object-fit: cover;
-        }
+.carousel-inner {
+  height: 500px;
+
+  img {
+    object-fit: cover;
+  }
 }
 
 /* CAROUSEL TEXTO */
@@ -89,20 +85,20 @@ body {
   background-color: #000000;
   padding: 10px 0;
 
-.slide-marquesina .marque-text {
-  display: flex;
-  width: max-content;
-  animation: scrollLoop 20s linear infinite;
-}
+  .slide-marquesina .marque-text {
+    display: flex;
+    width: max-content;
+    animation: scrollLoop 20s linear infinite;
+  }
 
-.slide-marquesina span {
-  display: inline-block;
-  white-space: nowrap;
-  padding-right: 100px;
-  font-size: 1.2rem;
-  font-weight: 500;
-  color: #ffffff;
-}
+  .slide-marquesina span {
+    display: inline-block;
+    white-space: nowrap;
+    padding-right: 100px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #ffffff;
+  }
 }
 
 @keyframes scrollLoop {
@@ -114,13 +110,61 @@ body {
   }
 }
 
-.ofertas{
-  height:700px;
+.ofertas {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 20px;
+  margin-bottom: 25px;
+  padding-bottom: 25px;
+  background-color: #f4ebd9;
 }
 
-.ofert-container{
-  width:350px;
+.ofert-container {
+  width: 300px;
   height: 500px;
+  object-fit: cover;
+  border-bottom: 3px solid #d72638;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+
+  .ofert-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+#img-ofert {
+  width: 100%;
+  height: 470px;
   object-fit: cover;
 }
 
+.page-hombres{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.page-mujeres{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.img-pages{
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+
+  img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
