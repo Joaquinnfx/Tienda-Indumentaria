@@ -6,6 +6,8 @@ body {
 /* HEADER SLIDE */
   .carousel-slide{
     height: 40px;
+    width: 100%;
+    margin: 0;
     display: flex;
     align-content: center;
     background-color: #000000;
@@ -76,9 +78,7 @@ body {
         height: 500px;
         
         img {
-           
             object-fit: cover;
-            
         }
 }
 
@@ -113,3 +113,14 @@ body {
     transform: translateX(-50%);
   }
 }
+
+.ofertas{
+  height:700px;
+}
+
+.ofert-container{
+  width:350px;
+  height: 500px;
+  object-fit: cover;
+}
+
